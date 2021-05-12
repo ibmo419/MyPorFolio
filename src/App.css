@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white:#FFF;
+  --primary-orange:orange;
+  --primary-dark:rgba(78, 77, 77, 0);
+  --primary-red:#ef4035;
+  --primary-hover-red:#f33501;
+}
+body{
+  font-family: "Roboto Condenced" , sans-serif;
+}
+/*************************************NAVBAR****************************************************/
+nav{
+  z-index: 2;
+  
+}
+nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor:pointer;
+  font-size: 0.8rem;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  margin-right:0.75rem;
+  margin-left:0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+.navbar-nav > li > a.active , .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li >a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+/*************************************HEADER****************************************************/
+.header-wraper{
+  position: relative;
+  background: url(Laptop-Backround.jpg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+ 
+}
+.main-info{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condenced" , sans-serif;
+}
+.main-info h1 {
+  color:rgb(255, 145, 0);
+  text-transform: uppercase;
+}
+.main-info h2 {
+  color:rgb(255, 145, 0);
+  text-transform: uppercase;
+}
+@media(max-width:440px){
+  .main-info h1 {
+    font-size: 2rem;
+  }
+  .main-info h2 {
+    font-size: 1.5rem;
+  }
+  .facebook{
+    font-size: 2vh;
+    color: #3b5998;
+  }
+  .linkedin{
+    font-size: 2vh;
+    color:#0e76a8;
+  }
+  .youtube{
+    font-size: 2vh;
+    color:red;
+  }
+  .twitter{
+    color:#00acee;
+    font-size: 2vh;
+  }
+}
+@media(max-width:270px){
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
+  .main-info h2 {
+    font-size: 1rem;
+  }
+}
+/*************************************TypedText****************************************************/
+.typed-text{
+  font-size: 1.5rem;
+  color: var(--primary-white);
+}
+/*************************************contact me style****************************************************/
+.btn-style{
+
+text-transform: uppercase;
+border-radius: 0;
+padding:0.5rem  0.5rem 0.5rem 0.5rem ;
+color:var(--primary-white);
+margin:3.5rem;
+background-color:var(--primary-red);
+z-index: 2;
+font-size: 0.8rem;
+cursor: pointer;
+
+}
+.btn-style:hover{
+  color: var(--primary-orange);
+  text-decoration:none;
+}
+/************************************* Particals style ****************************************************/
+
+.tsparticles-canvas-el{
+position:absolute;
+height: 90vh;
+width: 90vh;
+z-index: 1;
+}
+/************************************* Social showUp style ****************************************************/
+.social-container{
+  display: flex;
+  justify-content: center;
+}
+a.social{
+  margin: 0 0.7rem;
+  size: 10 vh;
+}
+a.social:hover{
+  transform: translate(-2px);
+}
+.facebook{
+  font-size: 4vh;
+  color: #3b5998;
+}
+.linkedin{
+  font-size: 4vh;
+  color:#0e76a8;
+}
+@media(max-width:775px){
+  .facebook{
+    font-size: 3vh;
+    color: #3b5998;
+  }
+  .linkedin{
+    font-size: 3vh;
+    color:#0e76a8;
+  }  
+}
+/************************************* About Me Styling ****************************************************/
+.AboutMe-Header{
+  display: flex;
+  justify-content: center;
+  color: var(--primary-orange);
+  font-size: 1.7rem;
+  border-bottom: 0.3rem solid var(--primary-hover-red);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.AboutMe-container{
+  z-index: 2;
+  margin-top: 1rem;
+}
+.AboutMe-content{
+  margin-top:2rem;
+}
+.url{
+  cursor: pointer;
+  color: blue;
+}
+.Image-style{
+  height: 220px;
+  width: 220px;
+  border-radius: 19vh;
+  border:rgb(156, 146, 146) 4px solid;
+}
+.Image-position{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.info{
+  color:blue;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+.info-style{
+  display: flex;
+  align-items: baseline;
+  padding: 0;
+  margin: 0;
+}
+@media(max-width:992px){
+p{
+  font-size: 0.9rem;
+}
+.AboutMe-Header{
+  font-size: 1.2rem;
+}
+}
+.footer-position{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  /************************************* Contact Me ****************************************************/
+.success-msg{
+color: green;
+padding: 10px 15px;
+font-size: 1rem ;
+font-weight: bold;
+}
+.err-msg{
+color:red;
+padding: 10px 15px;
+font-size: 1rem ;
+font-weight: bold;
+}
+.contact-backround{
+  background: url(Contact-backround.jpg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+}
+.Form-Label{
+  color:var(--primary-white);
+}
+.content-color{
+  color:var(--primary-white) !important;
+}
+  /************************************* Projects ****************************************************/
+.CardBody{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Row-Style{
+  margin-top: 2rem;
+  text-align: center;
+
+}
+@media(max-width:992px){
+  .Row-Style{
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
+.Card_Style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+  /************************************* Skills ****************************************************/
+
+.title-style{
+  font-weight:bolder;
+  border-bottom: 0.2rem solid var(--primary-orange);
+  margin-bottom: 1rem;
+ 
+}
+.sevices_row_style{
+  background-color: rgb(243, 245, 247);
+  margin-bottom: 1rem;
+}
+.services_col_style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0.8rem;
+  border: 0.2rem solid var(--primary-orange);
+  margin:0.8rem;
+}
+.services_col_style > span {
+  font-weight: bold ;
+  font-size: 0.8rem;
+  color: var(--primary-red);
+}
+.skills_style{
+  margin-top: 1rem;
+}
+.skills_style > span {
+  font-weight: lighter;
+}
