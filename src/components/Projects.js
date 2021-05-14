@@ -15,9 +15,9 @@ function Projects() {
                 <Card.Text>
                   It is a React application that helps to schedule projects and daily tasks.<br></br>
                   Tools: React JS,React hooks,React Redux .
-                  Click <a className="url" href="https://github.com/ibmo419/ReactTodoApp">here</a> to see code .
+                  Click <a className="url" href="https://github.com/ibmo419/ToDoApp2">here</a> to see code .
                 </Card.Text>
-                <Button variant="primary" href="https://react-todo-41.herokuapp.com">View App</Button>
+                <Button variant="primary" href="https://to-do-app-2.herokuapp.com/">View App</Button>
               </Card.Body>
             </Card>
           </Col>
