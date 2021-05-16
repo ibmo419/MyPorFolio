@@ -40,7 +40,7 @@ const data={
     {
         title:"Project Management ",
         icon:faProjectDiagram,
-        description:"I have experience of 3 years in project management.I can lead projects using the agile scrum methodology."
+        description:"I have experience of 2 years in project management.I can lead projects using the agile scrum methodology."
      }
 
     ]

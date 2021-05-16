@@ -36,7 +36,7 @@ function AboutMe() {
                 </p>
                 <p>
                 After that ,i decided to make a career change into web development.
-                </p><p>Indeed, it was a amazing experience with <a className="url" href="https://gomycode.tn/">GoMyCode training center</a> , which ended with the obtaining of my diploma in full stack JS development .
+                </p><p>Indeed, it was an amazing experience with <a className="url" href="https://gomycode.tn/">GoMyCode training center</a> , which ended with the obtaining of my diploma in full stack JS development .
                 </p>
                 <p>
                    My dream is to find a new job in web development Engineering and to start a new career that inspires me a lot.
