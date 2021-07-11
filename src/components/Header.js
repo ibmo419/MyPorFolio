@@ -10,7 +10,7 @@ function Header() {
              <h2 style={{paddingBottom:50}}>&#128522; Good visit &#128522;</h2>
              <Typed
              className="typed-text"
-             strings={["I am Mohamed Ali","A MERN stack developer"]}
+             strings={["I am Mohamed Ali"," A Software Tester"]}
              typeSpeed={40}
              backSpeed={60}
              loop

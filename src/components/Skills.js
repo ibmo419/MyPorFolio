@@ -22,25 +22,30 @@ const data={
             description:[{skill:"Mongo DB",score:80},{skill:"SQL Server",score:70}],
         },
         {
-            title:"Source-Control",
-            description:[{skill:"GIT",score:80},{skill:"Github",score:80},{skill:"Scrum/Agile",score:90}],
+            title:"Software Testing",
+            description:[{skill:"Selenuim",score:80},{skill:"Git/Github",score:80},{skill:"Agile Testing",score:90},{skill:"Jira",score:90}],
         },
     
     ],
     services:[{
         title:"Front-end Development",
         icon:faFileCode,
-        description:"I have the ability to develop and design web pages using react js."
+        description:"Ability to develop and design web pages using react js."
     },
     {
         title:"Back-end Development",
         icon:faDatabase,
-        description:"I can create the server side of an application and communications between the database and the browser."
+        description:"Ability to create the server side of an application and communications between the database and the browser."
     },
     {
         title:"Project Management ",
         icon:faProjectDiagram,
         description:"I have experience of 2 years in project management.I can lead projects using the agile scrum methodology."
+     },
+     {
+        title:"Software Testing ",
+        icon:faProjectDiagram,
+        description:"Ability to analyze software elements, detect errors and bugs and define the test scenarios."
      }
 
     ]

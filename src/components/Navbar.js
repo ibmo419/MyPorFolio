@@ -24,7 +24,6 @@ function navbar() {
                smooth="true"
                offset={-70}
                duration={1000}
-              
               className="nav-link" >Home <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
