@@ -5,6 +5,7 @@ import {Link} from "react-scroll"
 
 function navbar() {
     return (
+      <>
         <nav className="navbar sticky-top navbar-expand-md navbar-light " style={{backgroundColor:"black"}}>
         <div className="container">
         <Link className="navbar-brand" style={{color:'orange',fontWeight:800,fontFamily:"Helvetica"}}>
@@ -72,6 +73,7 @@ function navbar() {
        </div>
        </div>
       </nav>
+      </>
         )
 }
 

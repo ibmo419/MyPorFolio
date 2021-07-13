@@ -303,3 +303,7 @@ flex-direction: column;
 .skills_style > span {
   font-weight: lighter;
 }
+.skillsBox_style{
+  margin: 1.5rem;
+
+}

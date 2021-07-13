@@ -70,7 +70,7 @@ const data={
             </Row>
             <Row>
                 {data.skills.map((el)=>(
-                 <Col sm={3}>
+                 <Col className="skillsBox_style" sm={3}>
                  <span className="title-style">{`${el.title}:`}</span>
                  
                      {el.description.map((cnt)=>(
@@ -78,7 +78,6 @@ const data={
                              <span>{cnt.skill}</span>
                              <LinearProgress variant="determinate" 
                        value={cnt.score} />
-
                          </div>
                      ))}
                  </Col>

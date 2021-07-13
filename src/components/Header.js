@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from "react-typed"
 import {Link} from "react-scroll"
 
+
 function Header() {
     return (
         <div className="header-wraper" id="home">

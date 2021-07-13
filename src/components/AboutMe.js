@@ -2,6 +2,7 @@ import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPhone ,faEnvelope} from "@fortawesome/free-solid-svg-icons"
+import BasicSpeedDial from "./Speed-Dial"
 
 
 function AboutMe() {
@@ -21,7 +22,10 @@ function AboutMe() {
                     </div>
                     <div className="info-style">
                     <FontAwesomeIcon icon={faEnvelope} className="info"/>
-                    <p> hadjamor.medali@gmail.com</p>
+                    <p>hadjamor.medali@gmail.com</p>
+                    </div>
+                    <div>
+                    <BasicSpeedDial />
                     </div>
 
                     </div>

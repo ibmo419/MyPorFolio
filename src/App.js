@@ -8,6 +8,7 @@ import AboutMe from './components/AboutMe';
 import Skills from "./components/Skills"
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
+//import BasicSpeedDial from "./components/Speed-Dial"
 
 function App() {
   return (
@@ -35,10 +36,12 @@ function App() {
     <Navbar/>
     <Header/>
     <AboutMe/>
+    
     <Skills/>
     <Projects/>
     <Contacts/>
     <Footer className="footer"/>
+  
     </>
   );
 }
