@@ -277,7 +277,7 @@ flex-direction: column;
 .title-style{
   font-weight:bolder;
   border-bottom: 0.2rem solid var(--primary-orange);
-  margin-bottom: 1rem;
+  margin: 1rem;
  
 }
 .sevices_row_style{

@@ -8,9 +8,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import ConnectWithoutContactIcon from '@material-ui/icons/ConnectWithoutContact';
 
 const actions = [
-  { icon: <FacebookRoundedIcon/>, name: 'Facebook',url:'https://www.facebook.com/hajamor.mohamedali' },
-  { icon: <LinkedInIcon />, name: 'Github',url:'https://www.linkedin.com/in/ibn-hadj-amor-mohamed-ali/' },
-  { icon: <GitHubIcon />, name: 'Print',url:'https://github.com/ibmo419' },
+  { icon: <FacebookRoundedIcon/>, name: 'Facebook',url:'https://www.facebook.com/hajamor.mohamedali',tar:"_blank" },
+  { icon: <LinkedInIcon />, name: 'Github',url:'https://www.linkedin.com/in/ibn-hadj-amor-mohamed-ali/',tar:"_blank" },
+  { icon: <GitHubIcon />, name: 'Print',url:'https://github.com/ibmo419',tar:"_blank" },
   
 ];
 
@@ -30,6 +30,7 @@ function BasicSpeedDial() {
             icon={action.icon}
             tooltipTitle={action.name}
             href={action.url}
+            target={action.tar}
           />
         ))}
       </SpeedDial>
