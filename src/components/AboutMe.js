@@ -36,17 +36,18 @@ function AboutMe() {
                     Hello,My name is Mohamed Ali ,i am an industrial engineer graduated from the National Engineering School of Bizert in 2018 .
                 </p>
                 <p>
-                    I worked ,from September 2018 to December 2020, as a Projetcs Engineer in <a className="url" href="https://www.leoni.com/en/">LEONI Wiring Systems</a>.
+                    I works ,from November 2018 , as a Industrial Methods Engineer in <a className="url" href="https://www.leoni.com/en/" target="_blank" rel="noopener noreferrer">LEONI Wiring Systems</a>.
                 </p>
                 <p>
-                After that ,i decided to make a career change into web development.
-                </p><p>Indeed, it was an amazing experience with <a className="url" href="https://gomycode.tn/">GoMyCode training center</a> , which ended with the obtaining of my diploma in full stack JS development .
+                    And ,i decided to make a career change into Software Testing.
+                </p><p>Indeed, it was an amazing experience with <a className="url" href="https://gomycode.tn/" target="_blank" rel="noopener noreferrer">GoMyCode</a> , which  helped me to make an initiation into IT field through a web development training.
+                       And an other training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a> .
                 </p>
                 <p>
-                   My dream is to find a new job in web development Engineering and to start a new career that inspires me a lot.
+                   My dream is to find a new job as a AQ Software Engineer and to start a new career that inspires me a lot.
                 </p>
                 <p>
-                    I am constantly learning new things ,currently those things include gaining more experience with React ,express JS ,Node JS and Mongo DB .
+                    I am constantly learning new things ,currently those things include gaining more experience with Reactjs ,Node JS ,Selenuim and other testing tools .
                 </p>
             
                 </Col>

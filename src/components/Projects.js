@@ -42,7 +42,8 @@ function Projects() {
                   It is a React application that helps to schedule projects and
                   daily tasks.<br></br>
                   Tools: React JS,React hooks,React Redux . Click{" "}
-                  <a className="url" href="https://github.com/ibmo419/ToDoApp2">
+                  <a className="url" href="https://github.com/ibmo419/ToDoApp2" 
+                  target="_blank" rel="noopener noreferrer">
                     here
                   </a>{" "}
                   to see code .
@@ -50,6 +51,7 @@ function Projects() {
                 <Button
                   variant="primary"
                   href="https://to-do-app-2.herokuapp.com/"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   View App
                 </Button>
@@ -92,7 +94,8 @@ function Projects() {
                   It is a front-end application,created for everyone who want to
                   take quizzes.<br></br>
                   Tools: React JS,React hooks,React Bootstrap . Click{" "}
-                  <a className="url" href="https://github.com/ibmo419/Quiz-App">
+                  <a className="url" href="https://github.com/ibmo419/Quiz-App" 
+                  target="_blank" rel="noopener noreferrer">
                     here
                   </a>{" "}
                   to see code .
@@ -100,6 +103,7 @@ function Projects() {
                 <Button
                   variant="primary"
                   href="https://quizz-app-12.herokuapp.com/"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   View App
                 </Button>
@@ -135,7 +139,7 @@ function Projects() {
                 </Carousel.Item>
               </Carousel>
 
-              {/* <Card.Img variant="top" src="Calculator.png" style={{ width: '17rem',height:'14rem'}}/> */}
+              
               <Card.Body className="CardBody">
                 <Card.Title>Calculator App</Card.Title>
                 <Card.Text>
@@ -145,6 +149,7 @@ function Projects() {
                   <a
                     className="url"
                     href="https://github.com/ibmo419/Calculator-App"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     here
                   </a>{" "}
@@ -153,6 +158,7 @@ function Projects() {
                 <Button
                   variant="primary"
                   href="https://calculator-1000.herokuapp.com/"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   View App
                 </Button>
