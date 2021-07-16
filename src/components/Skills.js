@@ -146,7 +146,8 @@ const data={
             <Row >
                <span className="title-style">My certificates :</span>
             </Row>
-            <Row>
+            <Row
+            >
                 {
                     data.cetificates.map((el,index)=>(
                         <Col
