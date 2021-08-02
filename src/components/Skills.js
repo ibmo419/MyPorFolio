@@ -51,12 +51,12 @@ const data={
     {
         title:"Project Management ",
         icon:faProjectDiagram,
-        description:"I have experience of 3 years in project management.I can lead projects using the agile scrum methodology."
+        description:"I have knowledge of agile project management and especially scrum methodology."
      },
      {
         title:"Software Testing ",
         icon:faTasks,
-        description:"Ability to analyze software elements, detect errors and bugs and define the test scenarios."
+        description:"Ability to analyse customer requirements, define the test scenarios ,detect errors and bugs."
      }
 
     ],

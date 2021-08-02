@@ -47,15 +47,15 @@ function AboutMe() {
                     <p>
                         I was always passionate about Quality management and  computer science too, and I was always following up on the latest news
                         in technologies and in the IT industry .
-                        So after this professional career ,i decided to make a career change into Software Quality Assurance.
+                        So after this professional career , i decided to make a change into Software Quality Assurance.
                     </p>
                     <p>
-                        My first step : making an initiation into IT field through a web development training with GoMyCode.<br></br> 
-                        My Second Step : doing a training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a>.
+                        My first step : i made an initiation into IT field through a web development training with GoMyCode.<br></br> 
+                        My Second Step : i am doing a training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a>.
                     </p>
                     <p>
                         My Third step is to find a new job as a QA Software Engineer and to start a new career that inspires me a lot.
-                        I am constantly learning new things ,currently those things include gaining more experience with front development tools like
+                        I am constantly learning new things , currently those things include gaining more experience with front development tools like
                         Reactjs and testing tools like Selenuim .
                     </p>
 
