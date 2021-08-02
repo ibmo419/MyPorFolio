@@ -102,6 +102,12 @@ const data={
         modal_title:"Scrum Fundamentals certificate",
         id:7
     },
+    {
+        title:"SQL",
+        src:"Cert8.png",
+        modal_title:"SQL certificate",
+        id:8
+    },
 
     
 ]

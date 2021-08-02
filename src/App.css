@@ -305,5 +305,7 @@ cursor:pointer;
 }
 .skillsBox_style{
   margin: 1.5rem;
-
+}
+span{
+  font-weight: bolder;
 }
