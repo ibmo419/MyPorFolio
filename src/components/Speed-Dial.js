@@ -9,8 +9,8 @@ import ConnectWithoutContactIcon from '@material-ui/icons/ConnectWithoutContact'
 
 const actions = [
   { icon: <FacebookRoundedIcon/>, name: 'Facebook',url:'https://www.facebook.com/hajamor.mohamedali',tar:"_blank" },
-  { icon: <LinkedInIcon />, name: 'Github',url:'https://www.linkedin.com/in/ibn-hadj-amor-mohamed-ali/',tar:"_blank" },
-  { icon: <GitHubIcon />, name: 'Print',url:'https://github.com/ibmo419',tar:"_blank" },
+  { icon: <LinkedInIcon />, name: 'Linkedin',url:'https://www.linkedin.com/in/ibn-hadj-amor-mohamed-ali/',tar:"_blank" },
+  { icon: <GitHubIcon />, name: 'Github',url:'https://github.com/ibmo419',tar:"_blank" },
   
 ];
 

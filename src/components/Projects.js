@@ -7,18 +7,18 @@ function Projects() {
       <Row className="AboutMe-Header">Projects</Row>
       <Row className="Row-Style">
         <Col lg={4} className="Row-Style">
-          <Card style={{ width: "18rem" }} className="Card_Style">
+          <Card style={{ width: "18rem",height:"30rem" }} className="Card_Style">
             <Card.Img variant="top" src="./projectsCapt/AppToDo2.png" style={{ height: "14rem" }} />
             <Card.Body className="CardBody">
               <Card.Title>ToDoList</Card.Title>
               <Card.Text>
                 It is a React application that helps to schedule projects and
                 daily tasks.<br></br>
-                Tools: React JS,React hooks,React Redux .
+                Tools: React JS,React hooks .
               </Card.Text>
               <Button
                 variant="primary"
-                href="https://to-do-app-2.herokuapp.com/"
+                href="https://to-do-app-02.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"
               >
                 View App
@@ -27,18 +27,18 @@ function Projects() {
           </Card>
         </Col>
         <Col lg={4} className="Row-Style">
-          <Card style={{ width: "18rem" }} className="Card_Style">
+          <Card style={{ width: "18rem" ,height:"30rem"}} className="Card_Style">
             <Card.Img variant="top" src="./projectsCapt/Quiz-App3.png" style={{ height: "14rem" }} />
             <Card.Body className="CardBody">
               <Card.Title>Quiz App</Card.Title>
               <Card.Text>
                 It is a front-end application,created for everyone who want to
                 take quizzes.<br></br>
-                Tools: React JS,React hooks,React Bootstrap .
+                Tools: React JS,React hooks,ReactStrap .
               </Card.Text>
               <Button
                 variant="primary"
-                href="https://quizz-app-12.herokuapp.com/"
+                href="https://quiz-app-01.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"
               >
                 View App
@@ -48,18 +48,18 @@ function Projects() {
         </Col>
         <Col lg={4} className="Row-Style">
           <Card
-            style={{ width: "18rem" }}
+            style={{ width: "18rem",height:"30rem"  }}
             className="Card_Style">
             <Card.Img
               variant="top"
               src="./projectsCapt/Calculator3.png"
-              style={{ height: "14rem" }} />
+              style={{ height: "14rem"}} />
             <Card.Body className="CardBody">
               <Card.Title>Calculator App</Card.Title>
               <Card.Text>
                 It is a front-end application,an online calculator for quik
                 calculations.<br></br>
-                Tools: React JS,CSS Grid,React Redux .
+                Tools: React JS,CSS Grid .
               </Card.Text>
               <Button
                 variant="primary"

@@ -7,8 +7,8 @@ function Header() {
     return (
         <div className="header-wraper" id="home">
             <div className="main-info">
-                <h1 style={{ paddingBottom: 50 }}>WELCOME TO MY PORTFOLIO Website</h1>
-                <h2 style={{ paddingBottom: 50 }}>&#128522; Good visit &#128522;</h2>
+                <h1 style={{ paddingBottom: 120 }}>WELCOME TO MY PORTFOLIO Website</h1>
+               
                 <Typed
                     className="typed-text"
                     strings={["I am Mohamed Ali", " A Software Tester"]}

@@ -55,7 +55,7 @@ function AboutMe() {
                         Secondly : i am doing a training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a>.
                     </p>
                     <p>
-                        And now i am looking for a new job as a QA Software Engineer and to start a new career that inspires me a lot.
+                        And now i am looking for a new job as a QA Software Engineer  to start a new career that inspires me a lot.
                         I am constantly learning new things , currently those things include gaining more experience with front development tools like
                         Reactjs and testing tools like Selenuim .
                     </p>
