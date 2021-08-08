@@ -5,60 +5,65 @@ import {Form,Button} from "react-bootstrap"
 import emailjs from "emailjs-com"
 
 function Contacts() {
-    const [state, setState] = useState({
-        name:"",
-        email:"",
-        subject:"",
-        message:"",
-        disabled:true,
-        emailsent:null,
-    })
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+    disabled: true,
+    emailsent: null,
+  })
 
-// useEffect(()=>{
-//   if(state.name!="" && state.subject!="" && state.email!="" && state.message!=""){
-//     setState({...state,disabled:false})
-//   }
-// },[state.name])
+  // useEffect(()=>{
+  //   if(state.name!="" && state.subject!="" && state.email!="" && state.message!=""){
+  //     setState({...state,disabled:false})
+  //   }
+  // },[state.name])
 
-const handlechange=(e)=>{
-    
-    const target=e.target;
-    const value= target.type==="checkbox" ? target.checked : target.value ;
-    const name=target.name;
-    setState({...state,[name]:value});
-}
+  const handlechange = (e) => {
 
-const sendEmail=(e)=>{
+    const target = e.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
+    setState({ ...state, [name]: value });
+  }
+
+  const sendEmail = (e) => {
 
     e.preventDefault()
     // setState({disabled:true,
     // emailsent:false})
 
-    emailjs.sendForm("service_tc66z4s", "template_9av36oo",e.target, "user_ChNPfkB67oIonZVzt5U20")
+    emailjs.sendForm("service_tc66z4s", "template_9av36oo", e.target, "user_ChNPfkB67oIonZVzt5U20")
       .then(() => {
 
-          setState({disabled:true,
-          emailsent:true});
-         
+        setState({
+          disabled: true,
+          emailsent: true
+        });
+
       })
       .catch(() => {
-          
-          setState({disabled:false,
-            emailsent:false});
-      });
-      setState({...state,
-        name:"",
-        email:"",
-        subject:"",
-        message:"",
-        disabled:true,
-        emailsent:null,
-    })
-      e.target.reset();
-}
 
-    return (
-      <div className="contact-backround">
+        setState({
+          disabled: false,
+          emailsent: false
+        });
+      });
+    setState({
+      ...state,
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      disabled: true,
+      emailsent: null,
+    })
+    e.target.reset();
+  }
+
+  return (
+    <div className="contact-backround">
       <Container id="contacts">
         <Row className="AboutMe-Header">Contact Me</Row>
         <Form onSubmit={sendEmail} >
@@ -70,7 +75,7 @@ const sendEmail=(e)=>{
               id="full-name"
               value={state.name}
               onChange={handlechange}
-              style={{background:"transparent"}}
+              style={{ background: "transparent" }}
               className="content-color"
             />
           </Form.Group>
@@ -81,7 +86,7 @@ const sendEmail=(e)=>{
               name="email"
               value={state.email}
               onChange={handlechange}
-              style={{background:"transparent"}}
+              style={{ background: "transparent" }}
               className="content-color"
             />
           </Form.Group>
@@ -92,7 +97,7 @@ const sendEmail=(e)=>{
               name="subject"
               value={state.subject}
               onChange={handlechange}
-              style={{background:"transparent"}}
+              style={{ background: "transparent" }}
               className="content-color"
             />
           </Form.Group>
@@ -105,23 +110,23 @@ const sendEmail=(e)=>{
               rows={3}
               onChange={handlechange}
               name="message"
-              style={{background:"transparent"}}
+              style={{ background: "transparent" }}
               className="content-color"
             />
           </Form.Group>
-          <Button variant="primary" type="submit" disabled={(state.name!=="" && state.subject!=="" && state.email!=="" && state.message!=="")?false:true}>
+          <Button variant="primary" type="submit" disabled={(state.name !== "" && state.subject !== "" && state.email !== "" && state.message !== "") ? false : true}>
             Send
           </Button>
           {state.emailsent === true && (
-          <p className="d-inline success-msg">Email Sent</p>
-        )}
-        {state.emailsent === false && (
-          <p className="d-inline err-msg">Email not Sent</p>
-        )}
+            <p className="d-inline success-msg">Email Sent</p>
+          )}
+          {state.emailsent === false && (
+            <p className="d-inline err-msg">Email not Sent</p>
+          )}
         </Form>
       </Container>
-      </div>
-    );
+    </div>
+  );
 }
 
 export default Contacts

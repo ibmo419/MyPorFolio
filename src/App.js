@@ -5,10 +5,10 @@ import Header from './components/Header';
 import Particles from 'react-particles-js'
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
-import Skills from "./components/Skills"
+import Skills from "./components/Skills";
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
-//import BasicSpeedDial from "./components/Speed-Dial"
+
 
 function App() {
   return (

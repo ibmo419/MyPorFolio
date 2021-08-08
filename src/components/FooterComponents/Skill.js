@@ -2,6 +2,7 @@ import { faDatabase, faFileCode, faProjectDiagram, faTasks } from '@fortawesome/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import {Col, Container,Row} from "react-bootstrap"
+import LinearProgress from "@material-ui/core/LinearProgress";
 import Modal from 'react-bootstrap/Modal'
 import {useState} from 'react'
 import Card from 'react-bootstrap/Card'
@@ -21,125 +22,21 @@ function Skills() {
         skills:
             [
                 {
-                    ref: "./AppIcon/css_icon.png",
-                    name:"CSS 3",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
+                    title: "Front-End",
+                    description: [{ skill: "React JS", score: 60 }, { skill: "Bootstrap", score: 90 }, { skill: "Material UI", score: 90 }],
                 },
                 {
-                    ref: "./AppIcon/html_icon.png",
-                    name:"html 5",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
+                    title: "Back-End",
+                    description: [{ skill: "Node JS", score: 40 }, { skill: "Express", score: 40 }, { skill: "MongoDB", score: 60 }, { skill: "MySQL", score: 20 }],
                 },
                 {
-                    ref: "./AppIcon/bootstrap_icon.png",
-                    name:"bootstrap",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
+                    title: "Programming languages",
+                    description: [{ skill: "Javascript", score: 80 }, { skill: "Java", score: 30 }, { skill: "Python", score: 40 }],
                 },
                 {
-                    ref: "./AppIcon/javascript_icon.png",
-                    name:"javascript",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
+                    title: "Control&Software Testing",
+                    description: [{ skill: "Selenuim", score: 60 }, { skill: "Git/Github", score: 70 }, { skill: "Postman", score: 80 }, { skill: "Jira", score: 50 }],
                 },
-                {
-                    ref: "./AppIcon/react_icon.png",
-                    name:"Reactjs",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
-                },
-                {
-                    ref: "./AppIcon/nodejs_icon.png",
-                    name:"nodejs",
-                    style:{
-                        width:"150px",
-                        height:"110px"
-                    }
-                },
-                {
-                    ref: "./AppIcon/mongodb_icon.png",
-                    name:"nodejs",
-                    style:{
-                        width:"100px",
-                        height:"100px"
-                    }
-                },
-                {
-                    ref: "./AppIcon/mysql_icon.png",
-                    name:"mysql",
-                    style:{
-                        width:"150px",
-                        height:"150px"
-                    }
-                },
-                {
-                    ref: "./AppIcon/python_icon.png",
-                    name:"mysql",
-                    style:{
-                        width:"150px",
-                        height:"150px"
-                    }
-                },
-                {
-                    ref: "./AppIcon/git_icon.png",
-                    name:"git",
-                    style:{
-                        width:"150px",
-                        height:"150px",
-                    }
-                },
-                {
-                    ref: "./AppIcon/github_icon.png",
-                    name:"github",
-                    style:{
-                        width:"90px",
-                        height:"90px",
-                    }
-                },
-                {
-                    ref: "./AppIcon/testlink_icon.png",
-                    name:"Testlink",
-                    style:{
-                        width:"160px",
-                        height:"150px",
-                    }
-                },
-                {
-                    ref: "./AppIcon/TestRail_icon.png",
-                    name:"TestRail",
-                    style:{
-                        width:"140px",
-                        height:"140px",
-                    }
-                },
-                {
-                    ref: "./AppIcon/jira_icon.jpg",
-                    name:"Jira Software",
-                    style:{
-                        width:"250px",
-                        height:"160px",
-                    }
-                },
-                {
-                    ref: "./AppIcon/postman_icon.jpg",
-                    name:"Postman",
-                    style:{
-                        width:"250px",
-                        height:"130px",
-                    }
-                },     
             ],
         services: [{
             title: "Front-end Development",
@@ -222,15 +119,6 @@ function Skills() {
             <Row className="AboutMe-Header">
                 Skills
             </Row>
-            <Row className="skills_row_style">
-                {data.skills.map((el) => (
-                    <Col className="skillsBox_style" >
-                       <img src={el.ref} alt={el.name}
-                        style={el.style}
-                       ></img>
-                    </Col>
-                ))}
-            </Row>
             <Row >
                 <span className="title-style">My services :</span>
             </Row>
@@ -243,9 +131,26 @@ function Skills() {
 
                     </Col>))}
             </Row>
-           
+            <Row>
+                {data.skills.map((el) => (
+                    <Col className="skillsBox_style" sm={3}>
+                        <span className="title-style">{`${el.title}:`}</span>
+
+                        {el.description.map((cnt) => (
+                            <div className="skills_style">
+                                <span>{cnt.skill}</span>
+                                <LinearProgress variant="determinate"
+                                    value={cnt.score}
+                                    color="secondary"
+                                />
+                            </div>
+                        ))}
+                    </Col>
+
+                ))}
+            </Row>
             <Row >
-                <span  className="title-style">My certificates :</span>
+                <span className="title-style">My certificates :</span>
             </Row>
             <Row
             >

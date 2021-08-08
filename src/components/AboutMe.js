@@ -35,31 +35,30 @@ function AboutMe() {
                     <p>
                         Good day , My name is Mohamed Ali , i am exicted to tell you my professional story briefly ,
                     </p>
-                        <p>
-                        <span> 2013 / 2015 : </span> i did 2 years of preparatory studies at <a className="url" href="http://www.ipeim.rnu.tn/" target="_blank" rel="noopener noreferrer">IPEIM</a> with Specialty : mathematics and physics .
-                        <br></br> 
-                        <span>2015 / 2018 : </span> i studied industrial engineering with quality management expertise at <a className="url" href="http://enib_bizerte.byethost18.com/?i=1" target="_blank" rel="noopener noreferrer">ENIB</a> .
-                        </p>
-                        <p> </p>
-                        <p><span>2018 / 2021 : </span> i worked as a Continuous Improvement Engineer in <a className="url" href="https://www.leoni.com/en/" target="_blank" rel="noopener noreferrer">LEONI Wiring Systems</a> ,my main mission was :
-                            Quality Improvement : detection of non-compliance and resolution of quality problems,
-                            anticipation of quality risks of new projects, implementation of preventive and curative actions .</p>
                     <p>
-                        I was always passionate about Quality management and  computer science too, and I was always following up on the latest news
+                        <span> In 2013 / 2015 : </span> I studied 2 years preparatory to engineering studies at <a className="url" href="http://www.ipeim.rnu.tn/" target="_blank" rel="noopener noreferrer">IPEIM</a> with Specialty : mathematics and physics .
+                        <br></br>
+                        <span>In 2015 / 2018 : </span> I studied industrial engineering with quality management expertise at <a className="url" href="http://enib_bizerte.byethost18.com/?i=1" target="_blank" rel="noopener noreferrer">ENIB</a> .
+                    </p>
+                    <p> </p>
+                    <p><span>In 2018 / 2021 : </span> i worked as a Continuous Improvement Engineer in <a className="url" href="https://www.leoni.com/en/" target="_blank" rel="noopener noreferrer">LEONI Wiring Systems</a> .The main mission was :
+                        Quality Improvement : detection of non-compliance and resolution of quality problems,
+                        anticipation of quality risks of new projects, implementation of preventive and curative actions .</p>
+                    <p>
+                        After that , i decided to make a change into Software Quality Assurance.
+                        Because,i am always passionate about Quality management and  computer science too, and I was always following up on the latest news
                         in technologies and in the IT industry .
-                        So after this professional career , i decided to make a change into Software Quality Assurance.
+                        
                     </p>
                     <p>
-                        My first step : i made an initiation into IT field through a web development training with GoMyCode.<br></br> 
-                        My Second Step : i am doing a training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a>.
+                        First of all : i made an initiation into IT field through a web development training with GoMyCode.<br></br>
+                        Secondly : i am doing a training to specialize in Software Quality Assurance with <a className="url" href="http://www.corp.tn/" target="_blank" rel="noopener noreferrer">CORP</a>.
                     </p>
                     <p>
-                        My Third step is to find a new job as a QA Software Engineer and to start a new career that inspires me a lot.
+                        And now i am looking for a new job as a QA Software Engineer and to start a new career that inspires me a lot.
                         I am constantly learning new things , currently those things include gaining more experience with front development tools like
                         Reactjs and testing tools like Selenuim .
                     </p>
-
-
                 </Col>
             </Row>
 
