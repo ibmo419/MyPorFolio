@@ -140,6 +140,22 @@ function Skills() {
                         height:"130px",
                     }
                 },     
+                 {
+                    ref: "./AppIcon/uml_icon.png",
+                    name:"Postman",
+                    style:{
+                        width:"200px",
+                        height:"130px",
+                    }
+                },  
+                {
+                    ref: "./AppIcon/testpad_icon.jpg",
+                    name:"Postman",
+                    style:{
+                        width:"220px",
+                        height:"100px",
+                    }
+                },    
             ],
         services: [{
             title: "Front-end Development",
@@ -225,7 +241,7 @@ function Skills() {
             <Row className="skills_row_style">
                 {data.skills.map((el) => (
                     <Col className="skillsBox_style" >
-                       <img src={el.ref} alt={el.name}
+                       <img className="zoom-in" src={el.ref} alt={el.name}
                         style={el.style}
                        ></img>
                     </Col>

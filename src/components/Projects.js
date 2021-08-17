@@ -6,6 +6,25 @@ function Projects() {
     <Container id="projects">
       <Row className="AboutMe-Header">Projects</Row>
       <Row className="Row-Style">
+      <Col lg={4} className="Row-Style">
+          <Card style={{ width: "18rem",height:"30rem" }} className="Card_Style">
+            <Card.Img variant="top" src="./projectsCapt/movie_app.jpg" style={{ height: "14rem" }} />
+            <Card.Body className="CardBody">
+              <Card.Title>Movie_App</Card.Title>
+              <Card.Text>
+                It is a React application that helps to manage the favorite movies and watch them by a simple click.<br></br>
+                Tools: React JS,Reactstrap,React Hooks.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://movie-app419.herokuapp.com/"
+                target="_blank" rel="noopener noreferrer"
+              >
+                View App
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col lg={4} className="Row-Style">
           <Card style={{ width: "18rem",height:"30rem" }} className="Card_Style">
             <Card.Img variant="top" src="./projectsCapt/AppToDo2.png" style={{ height: "14rem" }} />

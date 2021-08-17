@@ -14,12 +14,6 @@ function Contacts() {
     emailsent: null,
   })
 
-  // useEffect(()=>{
-  //   if(state.name!="" && state.subject!="" && state.email!="" && state.message!=""){
-  //     setState({...state,disabled:false})
-  //   }
-  // },[state.name])
-
   const handlechange = (e) => {
 
     const target = e.target;
@@ -31,10 +25,8 @@ function Contacts() {
   const sendEmail = (e) => {
 
     e.preventDefault()
-    // setState({disabled:true,
-    // emailsent:false})
 
-    emailjs.sendForm("service_tc66z4s", "template_9av36oo", e.target, "user_ChNPfkB67oIonZVzt5U20")
+    emailjs.sendForm("service_dzpwizl", "template_dcpfpjq", e.target, "user_zjqcT3EsnZkIJLqnIedcn")
       .then(() => {
 
         setState({
@@ -68,7 +60,7 @@ function Contacts() {
         <Row className="AboutMe-Header">Contact Me</Row>
         <Form onSubmit={sendEmail} >
           <Form.Group>
-            <Form.Label className="Form-Label" htmlFor="full-name">Full Name*</Form.Label>
+            <Form.Label className="Form-Label" htmlFor="full-name">Your Name*</Form.Label>
             <Form.Control
               type="text"
               name="name"
@@ -80,7 +72,7 @@ function Contacts() {
             />
           </Form.Group>
           <Form.Group>
-            <Form.Label className="Form-Label" htmlFor="email">Email*</Form.Label>
+            <Form.Label className="Form-Label" htmlFor="email">Your Email*</Form.Label>
             <Form.Control
               type="email"
               name="email"
