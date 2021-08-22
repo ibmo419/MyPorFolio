@@ -109,6 +109,14 @@ function Skills() {
                     }
                 },
                 {
+                    ref: "./AppIcon/heroku_icon.png",
+                    name:"heroku app",
+                    style:{
+                        width:"130px",
+                        height:"100px",
+                    }
+                },
+                {
                     ref: "./AppIcon/testlink_icon.png",
                     name:"Testlink",
                     style:{
@@ -151,6 +159,14 @@ function Skills() {
                 {
                     ref: "./AppIcon/testpad_icon.jpg",
                     name:"Postman",
+                    style:{
+                        width:"220px",
+                        height:"100px",
+                    }
+                },    
+                {
+                    ref: "./AppIcon/jmeter_icon.png",
+                    name:"Jmeter",
                     style:{
                         width:"220px",
                         height:"100px",
@@ -248,19 +264,6 @@ function Skills() {
                 ))}
             </Row>
             <Row >
-                <span className="title-style">My services :</span>
-            </Row>
-            <Row className="sevices_row_style">
-                {data.services.map((el) => (
-                    <Col className="services_col_style">
-                        <FontAwesomeIcon icon={el.icon} size="3x" style={{ color: 'black' }} />
-                        <span>{el.title}</span>
-                        <p>{el.description}</p>
-
-                    </Col>))}
-            </Row>
-           
-            <Row >
                 <span  className="title-style">My certificates :</span>
             </Row>
             <Row
@@ -299,6 +302,18 @@ function Skills() {
                     </Modal.Body>
                 </Modal>
 
+            </Row>
+            <Row >
+                <span className="title-style">My services :</span>
+            </Row>
+            <Row className="sevices_row_style">
+                {data.services.map((el) => (
+                    <Col className="services_col_style">
+                        <FontAwesomeIcon icon={el.icon} size="3x" style={{ color: 'black' }} />
+                        <span>{el.title}</span>
+                        <p>{el.description}</p>
+
+                    </Col>))}
             </Row>
 
         </Container>
