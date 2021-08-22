@@ -71,18 +71,17 @@ function Projects() {
             className="Card_Style">
             <Card.Img
               variant="top"
-              src="./projectsCapt/Calculator3.png"
+              src="./projectsCapt/weather_app.jpg"
               style={{ height: "14rem"}} />
             <Card.Body className="CardBody">
-              <Card.Title>Calculator App</Card.Title>
+              <Card.Title>Weather App</Card.Title>
               <Card.Text>
-                It is a front-end application,an online calculator for quik
-                calculations.<br></br>
-                Tools: React JS,CSS Grid .
+                It is a front-end application, useful in searching current weather informations of any country around the world.<br></br>
+                Tools: React_Redux,Axios .
               </Card.Text>
               <Button
                 variant="primary"
-                href="https://calculator-1000.herokuapp.com/"
+                href="http://weather-app419.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"
               >
                 View App
